@@ -1,15 +1,16 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue';
 
-/*
-PROPS TO PASS TO THE WEB COMPONENT HERE
+
+/* PROPS TO PASS TO THE WEB COMPONENT HERE*/
 defineProps({
   msg: String,
 })
-*/
+
 </script>
 
 <template>
+<span>{{ msg }}</span>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
